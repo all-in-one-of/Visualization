@@ -1,0 +1,7 @@
+#Soybean plant L-System
+
+#The premise starts with B, which includes stem and cotyledons. A is the rest of the plant.
+B = `
+
+
+`

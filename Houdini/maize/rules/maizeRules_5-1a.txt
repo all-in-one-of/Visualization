@@ -1,0 +1,14 @@
+# Maize plant
+
+# Premise
+# M(scale) is tassel
+# K(scale,0,leafId) is cob
+B = [  -(45)J(1,0,1) ] A M(1)
+
+# J(scale,0,leafId,leafLength) is leaf
+# K(scale,0,leafId) is cob
+A:(t-.0001)%2==0 = !F [  -(45)J(1,0,t) +(15)K(1,0,g)] A
+A:(t-.0001)%2==1 = !F [  +(45)J(1,0,t) -(15)K(1,0,g)] A
+
+#A:(t-.0001)%2==0 = !F [  -(45)J(1,0,t) ] F(0.01) [ +(60)K(1,0,g) ] A
+#A:(t-.0001)%2==1 = !F [  +(45)J(1,0,t) ] F(0.01) [ -(60)K(1,0,g) ] A

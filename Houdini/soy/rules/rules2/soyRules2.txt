@@ -1,0 +1,20 @@
+#Soybean plant L-System
+
+#The premise starts with B, which includes stem and cotyledons. A is the rest of the plant.
+B = FF[+HJ][-HJ]A
+
+#Generation 2 is the first implementation of rule A, which grows two mono-leaves
+A:t<=2 = "!FF[+TTH//TK][-TTH\\TK]A
+
+#Future generations alternate left and right
+A:(t>2)&(t%2) = "!FF[+TQ]A
+A:(t>2)&((t%2)+1) = "!FF[-TQ]A
+
+#Structure of the trifoliate leaves
+#  b is length of petiole
+#  c is length of petioliole
+Q=F(b)TT//[--FX][++F][F]
+X=(rand(t))TK
+Y=(rand(t))TK
+Z=(rand(t))TK
+

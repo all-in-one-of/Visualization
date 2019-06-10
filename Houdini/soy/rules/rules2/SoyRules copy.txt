@@ -1,0 +1,6 @@
+A:t<=2 = "!FF[+TTH//TK][-TTH\\TK]A
+A:(t>2)&(t%2) = "!FF[+TQ]A
+A:(t>2)&((t%2)+1) = "!FF[-TQ]A
+Q=FTT//[--HTK][++HTK][HTK]
+R=FTT\\[--HTK][++HTK][HTK]
+B = FF[+HJ][-HJ]A

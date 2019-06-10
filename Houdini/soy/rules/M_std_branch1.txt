@@ -1,0 +1,7 @@
+#StemBranchID	node	branchAngle	pet.1Angle	pet.2Angle	mid-ifAngle	Left_angle	Right_angle	Middle_angle	internode	pet.1	pet.2	lat1L	lat1W	lat2L	lat2W	midL	midW
+1	1	0	0	0	0	0	0	0	27.70	0	0	0	0	0	0	0	0
+1	2	0	0	0	0	0	0	0	17.55	0	0	0	0	0	0	0	0
+1	3	0	0	0	0	0	0	0	13.58	0	0	0	0	0	0	0	0
+1	4	0	0	0	0	0	0	0	11.50	0	0	0	0	0	0	0	0
+1	5	0	0	0	0	0	0	0	26.00	0	0	0	0	0	0	0	0
+1	6	0	0	0	0	0	0	0	26.00	0	0	0	0	0	0	0	0

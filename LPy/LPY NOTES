@@ -1,0 +1,36 @@
+TODO:
+get the scaling on the stems correct using '!' or whatever ... 
+import static external geometry files and textures for leaves
+import animated external geometry files for flowers / soypods
+identify different features with colors? or export data attributes aside from position/color
+
+BIGGER TODO:
+animate senescence
+bring in external functions that drive the sizes of things (carbon?)
+collision detection
+instancing a field
+implement maize
+
+
+HOW TO GITHUB
+
+git add filename OR git add .
+git commit -m "whatever message"
+git push
+
+git pull
+
+March 30 ... submission deadline
+March 5 ... first draft
+Feb 14 ... have LPy soyplant ready
+
+
+
+
+Questions for Christophe and Pradal:
+
+How to evolve data, are there step sizes? What if there's a dependency, how does it increment?
+Is there a way to import OBJs with textures? If not is there a way to integrate OpenGL?
+Is there a way to export metadata attached to vertices? Things like "leaf number" or "vertex age"?
+OpenGL integration for instancing?
+
